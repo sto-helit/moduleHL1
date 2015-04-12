@@ -1,8 +1,11 @@
 {
   "name": "moduleHL1",
   "version": "0.1.0",
-  "description": "First module tried",
-  "main": "index.js",
+  "description": "First nodejs module   ",
+  "main": "./index.js",
+  "files": [
+    "lib/module.js"
+  ],
   "scripts": {
     "test": "tbd"
   },
@@ -13,6 +16,14 @@
   "keywords": [
     "module"
   ],
+   "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "readmeFilename": "README.md",
   "author": {
     "name": "H. Lock",
     "email": "hendrik.lock@sap.com"
